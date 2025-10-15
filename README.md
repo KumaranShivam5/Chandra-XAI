@@ -2,8 +2,8 @@
 
 
 
-Link to the interactive portal : [https://chandraxai.streamlit.app/](https://chandraxai.streamlit.app/)
-Link to the Machine readable classification table : [Zenodo](https://doi.org/10.5281/zenodo.17346885)
+> Link to the interactive portal : [https://chandraxai.streamlit.app/](https://chandraxai.streamlit.app/)
+> Link to the Machine readable classification table : [Zenodo](https://doi.org/10.5281/zenodo.17346885)
 
 <a href = "images/streamlit-light-portal-screenshot.PNG">
 <img src="images/streamlit-light-portal-screenshot.PNG"> </a>
