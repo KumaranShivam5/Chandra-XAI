@@ -2,7 +2,7 @@
 
 
 
-https://csc-class.streamlit.app/
+[https://chandraxai.streamlit.app/](https://chandraxai.streamlit.app/)
 
 
 <img src="images/streamlit-light-portal-screenshot.PNG">
