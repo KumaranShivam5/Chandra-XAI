@@ -9,16 +9,13 @@
 
 
 ## Introduction 
-The *Chandra* X-ray Observatory has accumulated more than a million detections
-over two decades, spanning a mixture of **stellar coronal emitters, 
-active galactic nuclei (AGN), and compact objects** (X-ray binaries,
-pulsars, cataclysmic variables).  
+The *Chandra* X-ray Observatory has accumulated more than a million detections over two decades, spanning a mixture of active galactic nuclei (AGNs), Young stellar objects, X-ray binaries, pulsars, cataclysmic variables among others.  
 
-The Chandra Source Catalogue$^1$ contains about 300,000 X-ray point sources. The nature of majority of them is not unconfirmed. In **Kumaran et.al 2023** we used LightGBM decision tree based model to clasify 277,069 objects into 8 class of X-ray emitting sources : Active Galactic Nuclei (AGN), Young Stellar Object (YSO), X-ray emitting Stars (STAR), High Mass X-ray Binary (HMXB), Low Mass X-ray Binary (LMXB), Cataclysmic Variable (CV), Ultra-luminuous X-ray Sources (ULX), Pulsar (PULSAR). For classification we use 41 multiwavelength features (see Table 2 of **Kumaran et.al 2023* for the details of these features).
+The Chandra Source Catalogue contains about 300,000 X-ray point sources. The nature of majority of them is not unconfirmed. In **Kumaran et.al 2023** we used LightGBM decision tree based model to clasify 277,069 objects into 8 class of X-ray emitting sources : Active Galactic Nuclei (AGN), Young Stellar Object (YSO), X-ray emitting Stars (STAR), High Mass X-ray Binary (HMXB), Low Mass X-ray Binary (LMXB), Cataclysmic Variable (CV), Ultra-luminuous X-ray Sources (ULX), Pulsar (PULSAR). For classification we use 41 multiwavelength features (see Table 2 of **Kumaran et.al 2023* for the details of these features).
 
 * Out of the selected 277069 point sources in the CSC-2.0, we identified the class of 7703 objects using the published literature.
 * We trained a LightGBM model to assign class membership probabilities to remaining 269366 sources with unknown class.
-* This protal presents the classification table of 269366 sources including 54,770 robustly classified sources (over $3\sigma$ significance)$^2$ and 14,066 sources at $>4\sigma$ significance$^2$.
+* This protal presents the classification table of 269366 sources including 54,770 robustly classified sources (over $3\sigma$ significance)$^2$ and 14,066 sources at $>4\sigma$ significance.
 
 ### SHAP Analysis
 For investingating the multiwavelength properties curical for class-wise identification of these objects, we applied SHAP analysis, an Explainable-AI technique for the majority classes : AGN, Star and YSO. Using SHAP analysis, we obtain local explanation of individual sources and their feature dependency. The paper **Kumaran et.al. (under review)** discuss the analysis in detail. 
