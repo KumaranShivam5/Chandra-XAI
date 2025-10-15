@@ -36,6 +36,8 @@ For investingating the multiwavelength properties curical for class-wise identif
 
 Machine readble data table is available at [Zenodo](https://doi.org/10.5281/zenodo.17346885)
 
+Interactive Local and global explanation of CMP is at the web portal [https://chandraxai.streamlit.app/](https://chandraxai.streamlit.app/)
+
 ### How to use the portal :
 
 1. When the portal first loads, it 100 sources selected at random from the catalog of 269366 sources.
