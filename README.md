@@ -34,6 +34,7 @@ For investingating the multiwavelength properties curical for class-wise identif
 *    Column 7: CMP2: probability of second highest class.
 *    Column 8 : SHAP : '✓' sign indicates, that SHAP analysis is available for this sources
 
+Machine readble data table is available at [Zenodo](https://doi.org/10.5281/zenodo.17346885)
 
 ### How to use the portal :
 
