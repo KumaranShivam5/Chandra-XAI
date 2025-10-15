@@ -1,0 +1,12 @@
+#[theme]
+
+#base="dark"
+#primaryColor='teal'
+
+[theme]
+base="light"
+primaryColor="#005ab3"
+
+
+[client]
+toolbarMode = "developer"
